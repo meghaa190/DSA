@@ -17,15 +17,7 @@ void pop() {
       top--;
    }
 }
-void display() {
-   if(top>=0) {
-      cout<<"Stack elements are:";
-      for(int i=top; i>=0; i--)
-      cout<<stack[i]<<" ";
-      cout<<endl;
-   } else
-   cout<<"Stack is empty";
-}
+
 int main() {
    int ch, val;
    cout<<"1) Push in stack"<<endl;
