@@ -168,6 +168,6 @@ int main()
   
     cout << "Elements of the list are: ";
     list.printList();
-    cout << endl;
+    cout << "\n";
     return 0;
 }
