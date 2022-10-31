@@ -46,7 +46,7 @@ int main()
     q.enQueue(3);
  
     cout << q.deQueue() << endl;
-    cout << q.deQueue() << '\n';
+    cout << q.deQueue() << endl;
     cout << q.deQueue() << '\n';
  
     return 0;
